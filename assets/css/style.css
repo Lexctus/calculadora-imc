@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+:root {
+    --primary-color: rgb(25, 2, 46);
+    --text-color: #fff;
+    --color-focus: rgb(243, 77, 229);
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    color: var(--text-color);
+    font-family: 'Uchen', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: rgb(68, 66, 182);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 2px solid var(--color-focus);
+}
+
+form button {
+    border: none;
+    background: #fff;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+form button:hover {
+    background: var(--color-focus);
+    color: #fff;
+}
+/* form button:active {
+    background: yellow;
+    color: #fff;
+} */
