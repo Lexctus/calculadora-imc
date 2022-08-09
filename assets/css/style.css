@@ -39,6 +39,7 @@ form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
+    border-radius: 10px;
 }
 
 form input:focus {
@@ -54,16 +55,19 @@ form button {
     height: 50px;
     cursor: pointer;
     margin-top: 40px;
+    border-radius: 10px;
 }
 form button:hover {
     background: var(--color-focus);
     color: #fff;
 }
-/* form button:active {
-    background: yellow;
-    color: #fff;
-} */
 .paragrafo-resultado {
-    background: rgb(16, 144, 18);
+    background: rgba(77, 168, 78, 0.776);
     padding: 10px;
+    border-radius: 10px;
+}
+.bad {
+    background: rgba(181, 73, 73, 0.902);
+    padding: 10px;
+    border-radius: 10px;
 }
