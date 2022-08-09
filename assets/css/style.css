@@ -63,3 +63,7 @@ form button:hover {
     background: yellow;
     color: #fff;
 } */
+.paragrafo-resultado {
+    background: rgb(16, 144, 18);
+    padding: 10px;
+}
